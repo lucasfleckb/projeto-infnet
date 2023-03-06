@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    /*estilo do menu*/
+
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      
+      ul {
+        list-style: none;
+        display: flex;
+      }
+      
+      li {
+        margin: 0 20px;
+      }
+      
+      a {
+        text-decoration: none;
+        color: #151515;
+        font-size: 16px;
+        padding: 10px;
+    
+       }
+
+       nav ul li a:hover {
+        background-color: #4f0ca5;
+        border-radius: 5px;
+        color: #ffffff;}
+
+       /*estilo do conteudo*/
+      
+      h1, h2, p {
+        margin: 0;      
+      }
+      
+      h1 {
+        font-size: 48px;
+        
+      }
+      
+      h2 {
+        font-size: 22px;
+        height: fit-content;
+        color: #2f2f2f;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      p {
+        font-size: 16px;
+        height: fit-content;
+        color: #6c6b6b;
+      }
+
+      main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-arround;
+        align-items: center;
+        margin-top: 30px;
+        margin: 50px 30px 50px 30px;
+    
+      }
+      div{
+        border-radius: 8px;
+        background-color: rgb(172, 172, 172);
+        padding: 50px 30px ;
+        margin-bottom: 25px;
+        text-align: center;
+        
+      }
+        
+ /*formulario*/
+
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4f0ca5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /*estilo do formulário e efeitos de cursor*/
+
+  input[type="submit"]:hover {
+    background-color: #8129f3;
+  }
+  
+  div:hover {
+ 
+    background-color: #4f0ca5;
+  }
+
+  p:hover {
+    color: white;
+  }
+
+  h2:hover {
+    color: white;
+  }
+
+  /*reponsividade da página */
+
+  @media only screen and (max-width: 600px) {
+    .imagem{
+      display: none;
+    }
+      h1{
+        font-size:36px;
+      }
+      h2{
+        font-size:16px;
+      }
+      p{
+        font-size:12px;
+      }
+
+        a {
+          
+          font-size: 12px;
+          padding: 5px;
+
+        }
+
+        h3{
+            font-size: 14px;
+        }
+
+        form{
+         font-size: 14px;
+        }
